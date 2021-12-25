@@ -1,0 +1,23 @@
+﻿<Window x:Class="Work3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ScrollViewer.VerticalScrollBarVisibility="Disabled">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="191*"/>
+            <RowDefinition Height="26*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Посчитать" Margin="644,5,0,0" Click="Button_Click" Grid.Row="1" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="113" FontSize="16"/>
+        <TextBox x:Name="tbotv" Margin="10,0,0,0" TextWrapping="Wrap" IsEnabled="False" Background="#FFC9C9C9" Grid.Row="1" Height="37" VerticalAlignment="Center" HorizontalAlignment="Left" Width="571"/>
+        <Label Content="Введите текст! Приложение просчитает количество предложений в нем.(Введенный текст можно удалить)" Margin="10,10,42,320" FontSize="14" FontFamily="Georgia"/>
+        <TextBox x:Name="TB" HorizontalAlignment="Left" Height="297" Margin="10,62,0,0" Text="Информатика — молодая научная дисциплина, изучающая вопросы, связанные с поиском, сбором, хранением, преобразованием и использованием информации в самых различных сферах человеческой деятельности. Генетически информатика связана с вычислительной техникой, компьютерными системами и сетями, так как именно компьютеры позволяют порождать, хранить и автоматически перерабатывать информацию в таких количествах, что научный подход к информационным процессам становится одновременно необходимым и возможным. До настоящего времени толкование термина «информатика» (в том смысле как он используется в современной научной и методической литературе) ещё не является установившимся и общепринятым. Обратимся к истории вопроса, восходящей ко времени появления электронных вычислительных машин. Понятие информатики является таким же трудным для какого-либо общего определения, как, например, понятие математики. Это и наука, и область прикладных исследований, и область междисциплинарных исследований, и учебная дисциплина (в школе и в вузе). Несмотря на то, что информатика как наука появилась относительно недавно (см. ниже), её происхождение следует связывать с работами Лейбница по построению первой вычислительной машины и разработке универсального (философского) исчисления. " TextWrapping="Wrap" VerticalAlignment="Top" Width="747" FontSize="14" FontFamily="Georgia" Background="#FFDEDEDE"/>
+
+    </Grid>
+</Window>
